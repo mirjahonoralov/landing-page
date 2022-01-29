@@ -5,6 +5,7 @@ import Learn from "./pages/Learn";
 import Questions from "./pages/questions/Questions";
 import Instructors from "./pages/instroctors/Instructors";
 import Contact from "./pages/Contact";
+import Modal from "./components/Modal";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Questions />
       <Instructors />
       <Contact />
+      <Modal />
     </BrowserRouter>
   );
 }

@@ -20,7 +20,11 @@ const ShowCase = () => {
                 nesciunt cupiditate dolore itaque, ad sit repellat repellendus
                 non officiis velit.
               </p>
-              <button className="btn btn-primary btn-lg">
+              <button
+                className="btn btn-primary btn-lg"
+                data-bs-toggle="modal"
+                data-bs-target="#enroll"
+              >
                 Start the Enrollment
               </button>
             </div>
