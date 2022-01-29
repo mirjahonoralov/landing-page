@@ -37,7 +37,7 @@ const Contact = () => {
                 </li>
                 <li className="list-group-item">
                   <span className="fw-bold">Student email: </span>
-                  nothing@gmail.com
+                  nothing@gmail.com 123
                 </li>
               </ul>
             </div>
