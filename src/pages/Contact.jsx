@@ -1,20 +1,20 @@
 import React, { useEffect, useRef } from "react";
-import mapboxgl from "mapbox-gl";
+// import mapboxgl from "mapbox-gl";
 
-mapboxgl.accessToken =
-  "pk.eyJ1IjoibWlyamFob24iLCJhIjoiY2t5eDV5YnpqMGZhcDJubXh2MzZsdHF6dyJ9.FYo0nkOoZ4MyWKnVxvtV6Q";
+// mapboxgl.accessToken =
+//   "pk.eyJ1IjoibWlyamFob24iLCJhIjoiY2t5eDV5YnpqMGZhcDJubXh2MzZsdHF6dyJ9.FYo0nkOoZ4MyWKnVxvtV6Q";
 
 const Contact = () => {
-  const mapContainer = useRef();
+  // const mapContainer = useRef();
 
-  useEffect(() => {
-    const map = new mapboxgl.Map({
-      container: mapContainer.current,
-      style: "mapbox://styles/mapbox/streets-v11",
-      center: [-71, 42],
-      zoom: 8,
-    });
-  }, []);
+  // useEffect(() => {
+  //   const map = new mapboxgl.Map({
+  //     container: mapContainer.current,
+  //     style: "mapbox://styles/mapbox/streets-v11",
+  //     center: [-71, 42],
+  //     zoom: 8,
+  //   });
+  // }, []);
 
   return (
     <>
@@ -42,14 +42,14 @@ const Contact = () => {
               </ul>
             </div>
 
-            <div className="col-md">
+            {/* <div className="col-md">
               <div
                 id="map"
                 ref={mapContainer}
                 className="rounded-3"
                 style={{ width: "100%", height: "100%", minHeight: "250px" }}
               ></div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
